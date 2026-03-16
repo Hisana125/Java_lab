@@ -19,15 +19,15 @@ class AreaShapes {
 		int choice = sc.nextInt();
 		switch(choice) {
 			case 1:
-				System.out.println("Enter radius: ");
+				System.out.print("Enter radius: ");
 				double r = sc.nextDouble();
 				System.out.println("Area of Circle = " + obj.area(r));
 				break;
 			case 2:
-				System.out.println("Enter length: ");
+				System.out.print("Enter length: ");
 				double l = sc.nextDouble();
 				System.out.print("Enter breadth: ");
-				double b =sc.nextDouble();
+				double b = sc.nextDouble();
 				System.out.println("Area of Rectangle = " + obj.area(l, b));
 				break;
 			case 3:
@@ -43,3 +43,4 @@ class AreaShapes {
 		sc.close();
 	}
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
